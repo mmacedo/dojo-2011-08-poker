@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerEmCSharp", "PokerEmCSharp\PokerEmCSharp.csproj", "{4DD756CE-64EA-41FB-A569-68D9905009FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerEmCSharpTests", "PokerEmCSharpTests\PokerEmCSharpTests.csproj", "{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A5E689F-453A-4777-85A9-47EA2A05DF3C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PokerEmCSharp.vsmdi = PokerEmCSharp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PokerEmFSharp", "PokerEmFSharp\PokerEmFSharp.fsproj", "{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PokerEmFSharpTests", "PokerEmFSharpTests\PokerEmFSharpTests.fsproj", "{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{E79C81B4-40E2-4E2B-BAFD-8DDBB4AC9C47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSharp", "FSharp", "{C5502300-B4FC-4990-A1F5-F6F484252E0F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PokerEmCSharp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD756CE-64EA-41FB-A569-68D9905009FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD756CE-64EA-41FB-A569-68D9905009FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD756CE-64EA-41FB-A569-68D9905009FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD756CE-64EA-41FB-A569-68D9905009FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39ABF16F-FE78-41EE-AA9B-1B2A0A08DAB3} = {E79C81B4-40E2-4E2B-BAFD-8DDBB4AC9C47}
+		{4DD756CE-64EA-41FB-A569-68D9905009FA} = {E79C81B4-40E2-4E2B-BAFD-8DDBB4AC9C47}
+		{BD42A92C-FB1E-4369-A1AC-CEEACA2CD814} = {C5502300-B4FC-4990-A1F5-F6F484252E0F}
+		{861C7D0A-5D8C-4B70-8115-A8FE86EC9CA8} = {C5502300-B4FC-4990-A1F5-F6F484252E0F}
+	EndGlobalSection
+EndGlobal
