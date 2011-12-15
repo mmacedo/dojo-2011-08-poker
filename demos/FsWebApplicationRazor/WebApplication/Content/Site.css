@@ -1,0 +1,60 @@
+﻿body
+{
+  background-color:#709235;
+  font-size:.85em;
+  font-family:cambria;
+}
+
+.page
+{
+	background:white;
+  margin-left:auto;
+  margin-top:30px;
+  margin-right:auto;
+  width:700px;
+}
+
+#header
+{
+	background:#40531e;
+	padding:5px 0px 5px 40px;
+}
+
+#header h1
+{
+  font-weight:bold;
+  color:white;
+  font:20pt 'Book Antiqua';
+}
+
+#footer
+{
+  color:#334218;
+  margin-top:20px;
+  font-size:.9em;
+}
+
+#menu
+{
+	background:#314017;
+	padding:2px 0px 2px 0px;
+}
+
+#menu a
+{
+	color:#b7ee57;
+	font-size:11pt;
+	font-weight:bold;
+	margin:0px 10px 0px 10px;
+}
+
+#main
+{
+	padding:10px;
+}
+
+#footer
+{
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
